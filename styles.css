@@ -1,5 +1,6 @@
 body{
     background-color: #8E243D;
+    font-family: "itc-american-typewriter", serif;
 }
 header, footer{
     background-color: #266C64;
@@ -9,4 +10,25 @@ nav a{
 }
 table{
     background-color: #EEB9CB;
+    color: #8E243D;
+}
+header img{
+    max-width: 10rem;
+    display: inline-block;
+}
+img{
+    max-width: 100%;
+}
+.story{
+    background-color: #266C64;
+    color: #C9E6DA;
+    padding: .5rem;
+}
+.story h2{
+    color: #EEB9CB;
+}
+.info{
+    background-color: #EEB9CB;
+    color: #8E243D;
+    margin: 2rem;
 }
