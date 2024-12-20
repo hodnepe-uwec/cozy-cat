@@ -32,3 +32,38 @@ img{
     color: #8E243D;
     margin: 2rem;
 }
+.humane{
+    background-color: #266C64;
+    color: #C9E6DA;
+}
+.humane h2{
+    color: #EEB9CB;
+}
+.cats h2{
+    color: #266C64;
+    background-color: #EEB9CB;
+}
+.cats img{
+    max-width: 45%;
+}
+.donate{
+    color: #266C64;
+    background-color: #EEB9CB;
+}
+.volunteer, .employment{
+    color: #C9E6DA;
+    background-color: #266C64;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.donate h2{
+    text-align: center;
+}
+.employment h3, .volunteer h3{
+    text-align: center;
+}
+.donate, .volunteer, .employment{
+    padding: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
