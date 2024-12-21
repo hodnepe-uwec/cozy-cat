@@ -7,6 +7,8 @@ header, footer{
 }
 nav a{
     background-color: #EEB9CB;
+    text-decoration: none;
+    color: #266C64;
 }
 table{
     background-color: #EEB9CB;
@@ -26,6 +28,7 @@ img{
 }
 .story h2{
     color: #EEB9CB;
+    text-align: center;
 }
 .info{
     background-color: #EEB9CB;
@@ -44,7 +47,7 @@ img{
     background-color: #EEB9CB;
 }
 .cats img{
-    max-width: 45%;
+    max-width: 100%;
 }
 .donate{
     color: #266C64;
@@ -66,4 +69,63 @@ img{
     padding: .5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+footer{
+    background-color: #266C64;
+    padding: 1rem;
+}
+.cats{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5rem 13rem 1fr 13rem;
+    gap: 1rem;
+    color: #C9E6DA;
+}
+.cats h2{
+    grid-area: 1/1/2/3;
+    text-align: center;
+}
+.cats span{
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #EEB9CB;
+}
+.contact{
+    background-color: #266C64;
+    color: #C9E6DA;
+}
+.contact h2{
+    color: #EEB9CB;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.featured{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 6rem 1fr 1fr 1fr;
+    gap: 1rem;
+    background-color: #BF5267;
+}
+.reservations p{
+    background-color: #EEB9CB;
+    color: #266C64;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.reservations h3{
+    color: #EEB9CB;
+}
+.reservations{
+    text-align: center;
+}
+.reservations h2{
+    background-color: #EEB9CB;
+    color: #266C64;
+    padding: 1rem;
+}
+menu h2{
+    background-color: #266C64;
 }
