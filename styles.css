@@ -34,10 +34,12 @@ img{
     background-color: #EEB9CB;
     color: #8E243D;
     margin: 2rem;
+    text-align: center;
 }
 .humane{
     background-color: #266C64;
     color: #C9E6DA;
+    padding: 1.5rem;
 }
 .humane h2{
     color: #EEB9CB;
@@ -98,7 +100,7 @@ footer{
     color: #EEB9CB;
 }
 .menu{
-    display: flex;
+    display: inline-table;
 }
 .featured{
     display: grid;
@@ -110,8 +112,9 @@ footer{
 .reservations p{
     background-color: #EEB9CB;
     color: #266C64;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    padding: 1rem;
 }
 .reservations h3{
     color: #EEB9CB;
@@ -124,12 +127,43 @@ footer{
     color: #266C64;
     padding: 1rem;
 }
+.featured h3{
+    color: #266C64;
+}
+.menu nav a{
+    display: flex;
+    text-align: center;
+}
+h2 span{
+    background-color: #266C64;
+    color: #EEB9CB;
+    padding: 1rem;
+    display: flex;
+    text-align: center;
+}
+header nav a:hover{
+    background-color: #8E243D;
+    color: #C9E6DA;
+}
 @media(min-width:500px){
     .cats{
         grid-template-rows: 6rem 20rem 1fr 20rem;
     }
     table{
+        display: inline-table;
+    }
+    header img{
         display: flex;
-        justify-content: center;
+    }
+    header nav a{
+        align-items: flex-end;
+    }
+    .info{
+        margin: 5rem;
+    }
+    .reservations p{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 1rem;
     }
 }

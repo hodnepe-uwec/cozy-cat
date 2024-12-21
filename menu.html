@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/lqs5trq.css">
     <meta charset="UTF-8">
@@ -19,7 +24,7 @@
         </nav>
     </header>
     <main>
-        <h2>Featured</h2>
+        <h2><span>Featured</span></h2>
         <section class="featured"> 
             <img src="Images/Classic.png" alt="classic tea">
             <img src="Images/Matcha.png" alt="matcha tea">
@@ -29,10 +34,12 @@
             <h3>Matcha Tea</h3>
             <h3>Taro Milk Tea</h3>
             <h3>Mango Fruit Tea</h3>
-        </section class=menu>
-        <p>Coffee</p>
-        <p>Tea</p>
-        <p>Pasteries</p>
+        </section>
+        <nav>
+            <a>Coffee</a>
+            <a>Tea</a>
+            <a>Pasteries</a>
+        </nav>
         <table>
             <thead>
                 <tr>
@@ -40,6 +47,7 @@
                     <th>Small 12 oz.</th>
                     <th>Large 16 oz.</th>
                 </tr>
+            </thead>
                 <tbody>
                         <tr>
                             <td>Latte</td>
@@ -77,13 +85,14 @@
                             <td>$0.50</td>
                         </tr> 
                 </tbody>
-            </thead>
         </table>
         <table>
             <thead>
-                <th>Tea</th>
+                <tr>
+                    <th>Tea</th>
                 <th>Small 12 oz.</th>
                 <th>Large 16 oz.</th>
+            </tr>
             </thead>
             <tbody>
                 <tr>
@@ -140,8 +149,10 @@
         </table>
         <table>
             <thead>
-                <th>Pasteries</th>
+                <tr>
+                    <th>Pasteries</th>
                 <th>Price for 1</th>
+            </tr>
             </thead>
             <tbody>
                 <tr>
